@@ -7,8 +7,6 @@ sap.ui.controller("mobiletileui5.TileView", {
 */
 	onInit: function() {
 		//define the model path
-		//another change
-		//change 3
 		var sURI= "http://services.odata.org/Northwind/Northwind.svc/"
 		if (typeof baseURL === "string") 
 			sURI=baseURL; //if mock service use the baseURL
